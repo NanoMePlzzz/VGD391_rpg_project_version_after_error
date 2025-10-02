@@ -23,8 +23,10 @@
     {"name":"obj_npc2","order":8,"path":"objects/obj_npc2/obj_npc2.yy",},
     {"name":"rm_battle","order":1,"path":"rooms/rm_battle/rm_battle.yy",},
     {"name":"Room2","order":2,"path":"rooms/Room2/Room2.yy",},
+    {"name":"Room4","order":3,"path":"rooms/Room4/Room4.yy",},
     {"name":"drawing","order":1,"path":"scripts/drawing/drawing.yy",},
-    {"name":"spr_new_lava","order":2,"path":"sprites/spr_new_lava/spr_new_lava.yy",},
+    {"name":"spr_jungle_background","order":2,"path":"sprites/spr_jungle_background/spr_jungle_background.yy",},
     {"name":"spr_npc2","order":1,"path":"sprites/spr_npc2/spr_npc2.yy",},
+    {"name":"TileSetNew","order":1,"path":"tilesets/TileSetNew/TileSetNew.yy",},
   ],
 }
