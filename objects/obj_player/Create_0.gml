@@ -16,7 +16,7 @@ function add_xp(_xp_to_add)
 xp += _xp_to_add;
 if (xp >= xp_require)
 {
-Level++;
+level++;
 xp -= xp_require;
 xp_require *= 1.4;
 
