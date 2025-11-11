@@ -11,6 +11,8 @@ level = 1;
 xp = 0;
 xp_require = 100;
 
+walking = false;
+
 function add_xp(_xp_to_add)
 {
 xp += _xp_to_add;

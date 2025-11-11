@@ -1,3 +1,4 @@
+// Player attacks enemy
 obj_battle_enemy.data.hp -= damage_to_enemy;
 
 if (check_for_end())
@@ -16,3 +17,5 @@ if (obj_battle_player.data.charge >1)
 {
 obj_battle_player.data.charge = 1;
 }
+
+audio_play_sound(elec_twang, 10, false);

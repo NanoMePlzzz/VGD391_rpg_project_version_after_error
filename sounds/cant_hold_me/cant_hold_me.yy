@@ -1,0 +1,26 @@
+{
+  "$GMSound":"v2",
+  "%Name":"cant_hold_me",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "channelFormat":1,
+  "compression":0,
+  "compressionQuality":4,
+  "conversionMode":0,
+  "duration":79.29238,
+  "exportDir":"",
+  "name":"cant_hold_me",
+  "parent":{
+    "name":"Sounds",
+    "path":"folders/Sounds.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"cant_hold_me.wav",
+  "volume":1.0,
+}

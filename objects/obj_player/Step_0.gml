@@ -7,6 +7,8 @@ move_and_collide(_hor * move_speed, _ver * move_speed, tilemap, undefined, undef
 
 if(_hor != 0 or _ver != 0)
 {
+if (!walking) alarm[0] = 1;
+walking = true;
     if (_ver > 0) sprite_index = spr_player_walk_down; 
     else if (_ver < 0) sprite_index = spr_player_walk_up;
     else if (_hor > 0) sprite_index = spr_player_walk_right;
@@ -14,6 +16,7 @@ if(_hor != 0 or _ver != 0)
 }
 else
 {  
+walking = false;
 if (sprite_index == spr_player_walk_right) sprite_index = spr_player_idle_right;
 else if (sprite_index == spr_player_walk_left) sprite_index = spr_player_idle_left;
 else if (sprite_index == spr_player_walk_up) sprite_index = spr_player_idle_up;
