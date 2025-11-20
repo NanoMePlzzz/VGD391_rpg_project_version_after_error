@@ -1,0 +1,3 @@
+if (enabled) {
+    hover = true;
+}
