@@ -87,6 +87,7 @@
     {"id":{"name":"scr_font","path":"scripts/scr_font/scr_font.yy",},},
     {"id":{"name":"cant_hold_me","path":"sounds/cant_hold_me/cant_hold_me.yy",},},
     {"id":{"name":"elec_twang","path":"sounds/elec_twang/elec_twang.yy",},},
+    {"id":{"name":"MainMusic","path":"sounds/MainMusic/MainMusic.yy",},},
     {"id":{"name":"mehackit_robot3","path":"sounds/mehackit_robot3/mehackit_robot3.yy",},},
     {"id":{"name":"mitchell_funks_it_up","path":"sounds/mitchell_funks_it_up/mitchell_funks_it_up.yy",},},
     {"id":{"name":"snd_step01","path":"sounds/snd_step01/snd_step01.yy",},},
