@@ -12,7 +12,7 @@ data.hp -= amount;
 data.charge += amount;
 if (data.charge > data.charge_require) data.charge = data.charge_require;
 if (data.hp <= 0) {
-audio_play_sound(elec_twang, 10, false);
+audio_play_sound(Hit, 10, false);
 scale = 1;
 alarm[1] = room_speed / 4;
 }
@@ -20,13 +20,16 @@ alarm[1] = room_speed / 4;
 
 function player_attack (target, cardname) {
 if (instance_exists(target)) {
-audio_play_sound(elec_twang, 10, false);
 curve_position = 0;
 alarm[0] = 1;
 target.selected = false;
 target.scale = 1;
-if (cardname == "simple") target.take_damage(data.damage);
+if (cardname == "simple") {
+	audio_play_sound(Hit, 10, false);
+	target.take_damage(data.damage);
+}
 else if (cardname == "heavy") {
+	audio_play_sound(elec_twang, 10, false);
 	target.take_damage(2 * data.damage);
 	data.charge = 0;
 }

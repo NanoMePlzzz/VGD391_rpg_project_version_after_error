@@ -8,5 +8,5 @@ instance_destroy(_id);
 }
 obj_player.add_xp(accumulated_xp);
 }
-alarm[0] = 180; 
+alarm[0] = 120; 
 }

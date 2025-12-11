@@ -6,7 +6,7 @@ hp = 10
 hp_total = hp;
 damage = 1;
 charge = 0;
-charge_require = 4;
+charge_require = 5;
 
 level = 1;
 xp = 0;

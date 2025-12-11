@@ -1,18 +1,18 @@
 {
   "$GMSound":"v2",
-  "%Name":"mitchell_funks_it_up",
+  "%Name":"Hit",
   "audioGroupId":{
     "name":"audiogroup_default",
     "path":"audiogroups/audiogroup_default",
   },
   "bitDepth":1,
-  "channelFormat":1,
+  "channelFormat":0,
   "compression":0,
   "compressionQuality":4,
   "conversionMode":0,
-  "duration":88.60354,
+  "duration":0.122585036,
   "exportDir":"",
-  "name":"mitchell_funks_it_up",
+  "name":"Hit",
   "parent":{
     "name":"Sounds",
     "path":"folders/Sounds.yy",
@@ -21,6 +21,6 @@
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
   "sampleRate":44100,
-  "soundFile":"mitchell_funks_it_up.wav",
-  "volume":0.5,
+  "soundFile":"Hit.ogg",
+  "volume":1.0,
 }
