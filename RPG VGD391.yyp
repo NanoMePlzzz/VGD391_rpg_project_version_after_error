@@ -35,7 +35,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.14.1.210",
+    "IDEVersion":"2024.14.2.212",
   },
   "name":"RPG VGD391",
   "resources":[
@@ -65,6 +65,7 @@
     {"id":{"name":"obj_enemy1","path":"objects/obj_enemy1/obj_enemy1.yy",},},
     {"id":{"name":"obj_enemy2","path":"objects/obj_enemy2/obj_enemy2.yy",},},
     {"id":{"name":"obj_enemy3","path":"objects/obj_enemy3/obj_enemy3.yy",},},
+    {"id":{"name":"obj_enemy4","path":"objects/obj_enemy4/obj_enemy4.yy",},},
     {"id":{"name":"obj_multibattle_enemy","path":"objects/obj_multibattle_enemy/obj_multibattle_enemy.yy",},},
     {"id":{"name":"obj_multibattle_manager","path":"objects/obj_multibattle_manager/obj_multibattle_manager.yy",},},
     {"id":{"name":"obj_multibattle_player","path":"objects/obj_multibattle_player/obj_multibattle_player.yy",},},
@@ -114,6 +115,7 @@
     {"id":{"name":"snd_step19","path":"sounds/snd_step19/snd_step19.yy",},},
     {"id":{"name":"snd_step20","path":"sounds/snd_step20/snd_step20.yy",},},
     {"id":{"name":"Evil_Greg","path":"sprites/Evil_Greg/Evil_Greg.yy",},},
+    {"id":{"name":"GOD","path":"sprites/GOD/GOD.yy",},},
     {"id":{"name":"multibattle_background","path":"sprites/multibattle_background/multibattle_background.yy",},},
     {"id":{"name":"spr_battle_screen","path":"sprites/spr_battle_screen/spr_battle_screen.yy",},},
     {"id":{"name":"spr_box","path":"sprites/spr_box/spr_box.yy",},},
