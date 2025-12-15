@@ -83,7 +83,6 @@
     {"id":{"name":"Room2","path":"rooms/Room2/Room2.yy",},},
     {"id":{"name":"Room4","path":"rooms/Room4/Room4.yy",},},
     {"id":{"name":"Audioi_Util","path":"scripts/Audioi_Util/Audioi_Util.yy",},},
-    {"id":{"name":"Dialogue","path":"scripts/Dialogue/Dialogue.yy",},},
     {"id":{"name":"drawing","path":"scripts/drawing/drawing.yy",},},
     {"id":{"name":"player_attacks","path":"scripts/player_attacks/player_attacks.yy",},},
     {"id":{"name":"scr_font","path":"scripts/scr_font/scr_font.yy",},},
