@@ -13,7 +13,7 @@ else if (keyboard_check(input_key))
     if (current_message >= array_length(messages))
         {
             instance_destroy();
-            if (next_room) room_goto_next();
+            if (next_room) game_restart();
         }
     else current_char = 0 
 }

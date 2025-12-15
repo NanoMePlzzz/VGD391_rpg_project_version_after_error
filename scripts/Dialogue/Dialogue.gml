@@ -11,7 +11,9 @@ char_colors = {
 "Congrats": c_yellow,
 "Cross": c_yellow,
 "Singh": c_aqua,
-"Cam": c_orange
+"Cam": c_orange,
+"Phil": c_maroon,
+"Final Guy": c_red
 }
 
 room1_end = [
@@ -58,10 +60,26 @@ cam_diag1 = [
 name: "Cam",
 msg: "I'm scared to go inside."
 },
-
 {
 name: "Cam",
 msg: "Can you try first please?"
 },
+]
 
+starting_guy_dialog = [
+{
+	name: "Phil",
+	msg: "Howdy my dude."
+},
+{
+	name: "Cross",
+	msg: "Leave me alone."
+}
+]
+
+final_npc = [
+{
+	name: "Final Guy",
+	msg: "You did it!"
+}
 ]
